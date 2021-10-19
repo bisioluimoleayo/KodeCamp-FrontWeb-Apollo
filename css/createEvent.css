@@ -1,0 +1,45 @@
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  position: relative;
+}
+
+.container-fluid img {
+  height: 42px;
+  width: auto;
+}
+
+.nav-link .ellipse2 {
+  height: 35px;
+}
+
+.ellipse3-img img {
+  height: 100px;
+}
+
+.form-control input {
+  width: 40%;
+}
+
+.eventsuccess .checked-icon img {
+  height: 50px;
+}
+
+.eventsuccess, .main-wrapper {
+  height: 200px;
+  width: 400px;
+}
+
+.checked-icon img {
+  height: 50px;
+}
+
+.msg-area h5 {
+  font-size: 1.5em;
+  color: #002053;
+}
+

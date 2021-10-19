@@ -1,0 +1,154 @@
+.second-nav{
+    height: 50px;
+    background-color:  #0E0E2C;
+    font-size: 11px; 
+}
+
+.second-nav a{
+    color: #E5E5E5;
+}
+
+.hero{
+    background-image: url("../images/image-42.png");
+    height: 140px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+.add-btn{
+    background-color:  #0E0E2C;
+    font-size: 8px;
+}
+
+.hero-text{
+    margin-top: 80px;
+    margin-left: 40px;
+    color: #012762;
+}
+
+.select, .heading, .hero-text, .provide, .photo, .review{
+    color: #012762;
+}
+
+.hero-image{
+    background-image: url("../images/Ellipse-26.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 10%;
+    padding-right: 6rem;
+    padding-bottom: 2rem;
+    padding-top:1rem ;  
+}
+
+.heading{
+    margin-top: 7rem;
+    color: #012762;
+}
+    
+.group109 img{
+    margin-right: 0;
+    right: 0;
+}
+
+.num-1{
+    background: #9EA2BB;
+}
+
+.line-15{  
+    top: 650px;
+    right: 400px;
+}
+
+.line-17{
+    position: absolute; 
+    left: 40%;
+    margin-top: -10rem;
+}
+
+.num2{
+    background: #9EA2BB;
+    right: 300px;
+}
+
+.nath, .arrow{
+    color: #012762;
+    background-color: #F6F6FA;;
+}
+
+.nath p{
+    font-size: 14px; 
+}
+
+.nath button{
+    background-color: #012762;
+}
+
+.num3{
+    background: #9EA2BB;
+    
+}
+
+.num4{
+    background: #9EA2BB;
+    
+}
+
+.blue-left{
+   left: 0;
+   top: 900px;
+   z-index: -1;
+}
+
+.blue-right{
+    top: 1200px; 
+    z-index: -1;  
+}
+
+.nath{
+    height: ;
+}
+
+ .text{
+     font-size: .8rem;
+ }
+ .back, .front{
+     height: 50px;
+ }
+
+.card{
+    background: #F6F6FA;
+    width: 300px;
+}
+
+.card img{
+    
+    height: 320px;
+}
+
+.arrow img{
+    height: 20px;
+    width: 20px
+}
+.nath{
+    height: 100%!important;
+}
+
+.img-fluid {
+    max-height: 100%;
+  }
+
+
+
+
+@media (min-width:1200px) {
+    .nathTet{
+        height: 500px!important;
+    }
+}
+
+@media (max-width:778px) {
+    .nath1 img{
+        width: 80%!important
+    }
+}

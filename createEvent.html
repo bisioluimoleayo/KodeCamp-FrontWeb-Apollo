@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/createEvent.css">
+  <title>Create Event</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5 me-5" href="#"><img src="./images/Rectangle 115.png" alt=""></a>
+      <button class="navbar-toggler justify-content-sm-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav me-5 mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Create an Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aunction.html">Auction House</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bookmarks.html">Bookmarks</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="ellipse2" src="./images/Ellipse 2.png" alt="">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="resubmission.html">Profiles</a></li>
+              <li><a class="dropdown-item" href="ratings_con.html">Reviews</a></li>
+              <li><a class="dropdown-item" href="payment_info.html">Payments</a></li>
+              <li><a class="dropdown-item" href="#">Created Events</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row g-3">
+      <h4 class="py-4">Create Event</h4>
+      <form class="col-sm-12 col-md-12">
+        <div class="mb-3 col-md-6" >
+          <label for="typeText" class="form-label">Event Name</label>
+          <input type="text" class="form-control rounded-0" id="eventName">
+        </div>
+        <div class="mb-3 col-md-6">
+          <label for="TypeText" class="form-label">Event Type</label>
+          <select id="eventType" class="form-select">
+            <option selected></option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+            <option value="6">Six</option>
+          </select>
+        </div>
+        <div class="mb-3 col-md-6" >
+          <label for="typeText" class="form-label">Event Duration</label>
+          <input type="text" class="form-control rounded-0" id="eventName">
+        </div>
+        <div class="mb-3 col-md-6" >
+          <label for="typeText" class="form-label">Event Location</label>
+          <input type="text" class="form-control rounded-0" id="eventLocation">
+        </div>
+        <div class="form-group mb-3 col-md-6">
+          <label for="typeText">Event Description</label>
+          <textarea class="form-control" id="eventDescription" rows="3"></textarea>
+        </div>
+        <h5 class="text-primary my-4">Vendors</h5>
+        <div class="mb-3 col-md-6">
+          <label for="TypeText" class="form-label">Event Type</label>
+          <select id="eventType" class="form-select">
+            <option selected></option>
+            <option value="1">Vendor200</option>
+            <option value="2">Vendor360</option>
+            <option value="2">Vendor310</option>
+            <option value="2">Vendor311</option>
+          </select>
+        </div>
+        <div class="container-fluid infobtn-toggle">
+          <div class="d-flex col-md-6 justify-content-md-around text-center">
+              <div class="col">
+                <button class="btn btn-primary py-1 px-4 ms-3" data-bs-toggle="modal" data-bs-target="#reg-modal">Book</button></div>
+              <div class="col">
+                <button class="btn text-danger">Cancel</button>
+              </div>
+            </div>
+        </div>
+        <button type="button" class=" btn btn-primary my-4 px-4 py-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Create Event</button>
+      </form>
+    </div>
+  </div>
+
+<!-- Modal -->
+  <div class="modal fade col-lg-12" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-primary rounded-circle" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-light d-flex justify-content-sm-center align-self-sm-center  text-center">
+          <div class="main-wrapper rounded-1">
+            <div class="checked-icon">
+              <img class="mt-5"src="./images/checked.png" alt="checked icon">
+            </div>
+            <div class="msg-area mt-4">
+              <h5>Event Successfully Created.</h5>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script/bootstrap.min.js"></script>
+</body>
+</html>

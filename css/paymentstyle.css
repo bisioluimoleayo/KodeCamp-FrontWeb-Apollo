@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.add-card {
+    text-align: center;
+    padding-top: 4rem;
+}
+.button_pay {
+    padding: 40px;
+}
+.ratings_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.textratings1 {
+    line-height: 0.2rem;
+}
+.textratings2 {
+    font-size: 0.7rem;
+}
+.bookmaf_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+@media(max-width:375px) {
+    .form_image2, .form_image {
+        display: none;
+        visibility:hidden ;
+    }
+
+    /* .form_image{
+        display: none;
+        visibility:hidden ;
+    } */
+}

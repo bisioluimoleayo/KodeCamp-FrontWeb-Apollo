@@ -1,0 +1,26 @@
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  position: relative;
+}
+
+.container-fluid img {
+  height: 42px;
+  width: auto;
+}
+
+ul .placeholder-txt {
+  padding: 0 0 0 30px;
+}
+
+.nav-link .ellipse2 {
+  height: 35px;
+}
+
+.bookmark-img  {
+  height: 80px !important;
+}
