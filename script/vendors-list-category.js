@@ -63,7 +63,7 @@ let topVendorsArray = [
     text: 'Glory Event'
   },
   {
-    image: 'Mama_emma1',
+    image: 'Mama_Emma1',
     text: 'Mama Emma'
   },
   {
