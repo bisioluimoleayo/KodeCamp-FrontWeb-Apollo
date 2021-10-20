@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aunction Page</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/aunBid.css">
+    <link rel="stylesheet" href="./css/paymentstyle.css">
+</head>
+<body>
+  <!-- NAVBAR START -->
+<div class="">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" class="img-fluid pb-3" alt="event-logo" style="width: 150px;" >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav flex-row d-none d-lg-flex col-lg-5 middle">
+          <form class="input-group w-auto my-auto d-none d-sm-flex col-lg-5 ps-5">
+            <div class="input-group mx-2">
+              <span class="input-group-text" id="basic-addon1"><img src="./images/search.png" alt="search-icon"></span>
+              <input type="text" class="form-control pe-5 " placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+          </form>
+        </ul>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="./login.html" class="nav-link mx-1 text-primary active pt-2">Create an Event</a>
+            </li>
+            <li class="nav-item">
+              <a href="./aunction-nonlogin.html" class="nav-link mx-1 text-dark pt-2 ">Auction House</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link mx-1 text-dark pt-2">Login</a>
+            </li>
+            <li class="nav-item">
+              <a href="./form_index.html" class="nav-link mx-1 text-dark pt-2 ">Signup</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</div>
+<!-- NAVBAR1 ENDS -->
+
+     <!-- NAVBAR2 BEGINS -->
+     <nav class="navbar navbar-expand-lg bg-dark ">
+        <div class="container text-aunction">
+            <ul class="nav ">
+                <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="howitworks.html">How It Works</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-light" href="aunction.html">Browse Aunctions </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-light" href="addBidPage.html">Add Bid </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- NAVBAR2 ENDS -->
+
+    <!-- SECTION 1 BEGINS -->
+    <section class=" gradient inner-bar">
+          <div class="container text-light d-flex">
+              <div class="row">
+                <div class="col-lg-7 col-md-7 mt-5">
+                      <div class="pt-5 mt-2">
+                          <h3>100% Online Aunctions</h3>
+                          <div class="how-it-works mt-2">
+                              <h4 class="mt-4">Featuring Paintings, Artpiece, Woodwork, Designs and lot more...</h4>
+                          </div>
+                      </div>
+                    <div class="how-it-works d-flex align-items-center fs-3 fw-bold mt-2">
+                        <div class="one">
+                            <div class="num">1</div>
+                            <h5>Register</h5>
+                        </div>
+                        <div class="one ">
+                            <div class="num">2</div>
+                            <h5>Find</h5>
+                        </div>
+                        <div class="one">
+                            <div class="num">3</div>
+                            <h5>Bid</h5>
+                        </div>
+                    </div>
+
+                    <a href="sign-up.html"><button type="button" class="btn btn-dark btn-lg text-light px-5 mt-3">Register to Start Bidding</button> </a>
+                </div>
+                <div class="col-lg-5 col-md-5">
+                    <div class="py-5">
+                        <img src="images/pngwing 1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+    <!-- SECTION 1 ENDS -->
+    
+    <!-- SECTION 2- AUNCTION BEGINS -->
+    <section>
+      <div class="mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3">
+                                <h4>Segun Akinde’s seige of the sky fountain.</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N5,234,564.00</h5>
+                
+                                        </div>
+                                        <div class="time">
+                                            <h5>14:04:23</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3">346 bids</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art2.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3 ">
+                                <h4 >Adebayo Ogunlesi’s search for the maiden...</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N2,834,564.00</h5>
+                
+                                        </div>
+                                        <div class="time">
+                                            <h5>7:04:23</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3 bid-color">124 bids</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art3.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3">
+                                <h4>Bamdus Shola’s state of the false man.</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N834,564.00</h5>
+                                        </div>
+                                        <div class="time">
+                                            <h5>4:04:23/h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3">224 bids</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <!-- Card 4 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art4.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3">
+                                <h4>Adegoke Saraki’s the upper room.</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N634,564.00</h5>
+                                        </div>
+                                        <div class="time">
+                                            <h5>17:04:23</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3">104 bids</h4>
+                            </div>
+                        </div>
+                    </a>               
+                </div>
+
+                <!--  Card 5 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art5.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3">
+                                <h4>Woodwork Painted Design</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N1,834,564.00</h5>
+                
+                                        </div>
+                                        <div class="time">
+                                            <h5>5:04:23</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3">24 bids</h4>
+                            </div>
+                        </div>
+                    </a> 
+                </div>
+
+                 <!-- Card 6 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art6.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3">
+                                <h4>Woodwork by Johnny James</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N834,564.00</h5>
+                
+                                        </div>
+                                        <div class="time">
+                                            <h5>4:04:23</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3">54 bids</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <!-- Card 7 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art7.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3">
+                                <h4>Brutalist Ironchain artpiece</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N34,564.00</h5>
+                
+                                        </div>
+                                        <div class="time">
+                                            <h5>7:04:23</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3">5 bids</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <!-- Card 8 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art8.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3">
+                                <h4>Gravity defying sculpture</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N34,564.00</h5>
+                
+                                        </div>
+                                        <div class="time">
+                                            <h5>5:04:23</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3">9 bids</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <!-- Card 9 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art9.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3">
+                                <h4>Broken Girl Art Piece</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N54,564.00</h5>
+                
+                                        </div>
+                                        <div class="time">
+                                            <h5>7:04:23</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3">56 bids</h4>
+                            </div>
+                        </div>
+                    </a> 
+                </div>
+
+                 <!-- Card 10 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art10.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3">
+                                <h4>David Hockney’s Fax Art</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N34,564.00</h5>
+                
+                                        </div>
+                                        <div class="time">
+                                            <h5>7:04:23</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3">45 bids</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <!-- Card 11 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art11.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3">
+                                <h4>Woodwork Art</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N84,564.00</h5>
+                
+                                        </div>
+                                        <div class="time">
+                                            <h5>5:04:23</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3">244 bids</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <!-- Card 12 -->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <img src="images/art12.png" class="img-fluid" alt="">
+                            <div class="auction-info p-3">
+                                <h4>Bamdus Shola’s state false man.</h4>
+                                <div class="price-time mb-4">
+                                    <div class="d-flex">
+                                        <div class="price me-2">
+                                            <h5>N834,564.00</h5>
+                
+                                        </div>
+                                        <div class="time">
+                                            <h5>4:04:23</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-info" onclick="bid()">Bid Now</button>
+                                <h6 class="mt-3">54 bids</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+            
+            <div class="text-center py-2">
+                <a href="#" ><button type="button" class="btn btn-primary w-lg-25 w-md-50  ">View more</button></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION 2- AUNCTION ENDS -->
+
+    <!-- FOOTER BEGINS -->
+    <footer class="text-white pt-5 pb-4" style="background-color: #2750A8;">
+        <div class="container text-left text-md-left">
+          <div class="row text-left text-md-left">
+            <div class="col-md-12 col-lg-3 col-xl-3 mt-1 mx-auto text-center ">
+              <img src="./images/event-logo.png" alt="">
+              <div class="col-md-12 col-lg-12 ">
+                <div class="text-center text-md-right">
+                  <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                      <a href="#" class="btn-floating btn-sm " style="font-size: 20px; color: #D8D8EA;"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="btn-floating btn-sm " style="font-size: 20px; color: #D8D8EA;"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="btn-floating btn-sm " style="font-size: 20px; color: #D8D8EA;"><i class="fab fa-google-plus"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="btn-floating btn-sm " style="font-size: 20px; color: #D8D8EA;"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="btn-floating btn-sm " style="font-size: 20px; color: #D8D8EA;"><i class="fab fa-youtube"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none; color: #D8D8EA;"><img src="./images/emojione-monotone_copyright.svg" alt=""> 2021 Events360</a>
+              </p>
+            </div>
+            <div class="col-12 col-md-2 col-sm-12 col-lg-2 col-xl-2 mx-auto mt-5">
+              <h6 class="text-uppercase mb-4 font-weight-bold text-light">Company</h6>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">About Us</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Pricing</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">FAQS</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Testimonials</a>
+              </p>
+            </div>
+            <div class="col-12 col-md-3 col-lg-2 col-sm-12 col-xl-2 mx-auto mt-5">
+              <h6 class="text-uppercase mb-4 font-weight-bold text-light">Plan Event</h6>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Weddings</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Birthday</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Funeral</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Sport Event</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Exhibition</a>
+              </p>
+            </div>
+            <div class="col-12 col-md-3 col-lg-2 col-sm-12 col-xl-2 mx-auto mt-5">
+              <h6 class="text-uppercase mb-4 font-weight-bold text-light">Contact Support</h6>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Help Center</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Privacy</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Terms and Conditions</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <!-- FOOTER ENDS -->
+    <script src="./script/bootstrap.min.js"></script>
+    <script src="./script/bootstrap.min.js.map"></script>
+</body>
+</html>
