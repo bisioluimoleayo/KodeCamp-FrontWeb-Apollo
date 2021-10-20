@@ -6,42 +6,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/bookmarks.css">
+  <link rel="stylesheet" href="./css/paymentstyle.css">
   <title>Bookmarks</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand ms-5 me-5" href="#"><img src="./images/Rectangle 115.png" alt=""></a>
-      <button class="navbar-toggler justify-content-sm-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse  justify-content-between" id="navbarSupportedContent">
-        <ul class="navbar-nav me-5 mb-2 mb-lg-0 ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="createEvent.html">Create an Event</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aunction.html">Auction House</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="bookmarks.html">Bookmarks</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img class="ellipse2" src="./images/Ellipse 2.png" alt="">
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="resubmission.html">Profiles</a></li>
-              <li><a class="dropdown-item" href="ratings_con.html">Reviews</a></li>
-              <li><a class="dropdown-item" href="payment_info.html">Payments</a></li>
-              <li><a class="dropdown-item" href="#">Created Events</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="index.html">Logout</a></li>
-            </ul>
+  <!-- NAVBAR START -->
+  <div class="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="./images/logo.png" class="img-fluid pb-3" alt="event-logo" style="width: 150px;" >
+        </a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav flex-row d-none d-lg-flex col-lg-5 middle">
+            <form class="input-group w-auto my-auto d-none d-sm-flex col-lg-5 ps-5">
+            <div class="input-group mx-2">
+                <!-- <span class="input-group-text" id="basic-addon1"><img src="./images/search.png" alt="search-icon"></span> -->
+                <input type="text" class="form-control pe-5 " placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            </form>
         </ul>
-      </div>
-    </div>
-  </nav>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="createEvent.html" class="nav-link mx-1 text-primary active pt-2">Create an Event</a>
+            </li>
+            <li class="nav-item">
+                <a href="aunction.html" class="nav-link mx-1 text-dark pt-2 ">Auction House</a>
+            </li>
+            <li class="nav-item">
+                <a href="bookmarks.html" class="nav-link mx-1 text-dark pt-2 ">Bookmark</a>
+            </li>
+            <li class="nav-item d-none d-md-flex">
+                <img src="./images/Ellipse_2.png" alt="" class="bookmaf_img">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="resubmission.html">Profiles</a></li>
+                    <li><a class="dropdown-item" href="ratings_con.html">Reviews</a></li>
+                    <li><a class="dropdown-item" href="payment_info.html">Payments</a></li>
+                    <li><a class="dropdown-item" href="#">Created Events</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                    </ul>
+                </li>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+</div>
+<!-- NAVBAR1 ENDS -->
+
   <div class="container">
     <h3 class="my-3 ps-5 ms-5">Bookmarks</h3>
       <div class="text-center my-5">
